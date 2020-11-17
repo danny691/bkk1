@@ -339,7 +339,7 @@ a:hover {
     padding-bottom: 40px;
 }
 
-@media only screen and (max-width:500px)
+@media only screen and (max-width:1280px)
 {
     .grid{
         display:grid;
