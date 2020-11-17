@@ -382,7 +382,7 @@ input[type=submit] {
         width: 100%;
         margin: 0;
         grid-area: header;
-        padding-right: 100px;      
+        padding-right: 142px;      
       
    
         
@@ -390,14 +390,14 @@ input[type=submit] {
     .navbar{
         grid-area: nav;
         background-color: #19d3da;
-        padding-right: 100px;
+        padding-right: 142px;
         width: 100%;
 
         margin: 0;
     }
     nav{
     
-        background-color: red;
+        background-color: #19d3da;
         width: 200px;
         margin: auto;
         padding: 0px 20px;
