@@ -335,7 +335,7 @@ input[type=submit] {
     padding-bottom: 40px;
 }
 
-@media only screen and (max-width:900px)
+@media only screen and (max-width:600px)
 {
     .grid{
         display:grid;
@@ -381,14 +381,14 @@ input[type=submit] {
 
         width: 100%;
         margin: 0;
-        grid-area: header;      
+        grid-area: header;
+        padding-right: 100px;      
       
    
         
     }
     .navbar{
         grid-area: nav;
-    
         background-color: #19d3da;
         padding-right: 100px;
         width: 100%;
@@ -400,7 +400,7 @@ input[type=submit] {
         background-color: red;
         width: 200px;
         margin: auto;
-        padding: 0px 34px;
+        padding: 0px 20px;
     }
 }
 
