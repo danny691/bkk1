@@ -114,9 +114,7 @@ h4{
 header {
     background-color: #1b262c;
     height: 250px;
-    margin:0 auto;
     text-align:left;
-    grid-area:header;
     position:relative;
 
 
