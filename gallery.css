@@ -414,16 +414,7 @@ input[type=submit] {
         text-align: left;
     }
 
-    header {
 
-        width: 900px;
-        margin: 0;
-
-
-
-
-
-    }
 
     header img a {
         border-style: none;
@@ -433,17 +424,26 @@ input[type=submit] {
 
     }
 
-    .navbar {
+    header {
+
+        width: 900px;
+        margin: 0;
+      
+      
+      
+   
+        
+    }
+    .navbar{
         grid-area: nav;
         background-color: #19d3da;
-        width: 600px;
+        width: 900px;
 
     }
-
-    nav {
-
+    nav{
+    
         background-color: #19d3da;
-        width: 900px;
+        width: 200px;
         margin: auto;
         padding: 0px 20px;
     }
