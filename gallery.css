@@ -339,7 +339,14 @@ input[type=submit] {
     padding-bottom: 40px;
 }
 
-@media only screen and (max-width:600px) {
+
+
+
+
+}
+/* mobile */
+
+@media only screen and (max-width:900px) {
     .grid {
         display: grid;
 
