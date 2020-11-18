@@ -358,6 +358,30 @@ input[type=submit] {
 
 
     }
+    .news {
+        grid-area: news;
+        background-color: #1b262c;
+        border: cyan;
+    
+    }
+    
+    .news h1 {
+        color: cyan;
+        margin-top: 32px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+    }
+    
+    .news p {
+        color: #F8F6F8;
+        font-size: 45px;
+        text-align: center;
+        width: 50%;
+        margin-top: 64px;
+
+    
+    }
 
 
     .vid {
@@ -380,7 +404,7 @@ input[type=submit] {
 
     #ftprod1 {
         grid-area: ftprod1;
-        text-align: left;
+
         width: 600px;
         height: 480px;
 
@@ -432,6 +456,7 @@ input[type=submit] {
         width: 600px;
 
     }
+
     nav{
     
         background-color: #19d3da;
