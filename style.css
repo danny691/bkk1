@@ -100,11 +100,7 @@ nav{
  ul {
     display: block;
     list-style-type: disc;
-    margin-block-start: em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+
 
 }
 
@@ -307,9 +303,7 @@ input[type=submit] {
     background-color: #1b262c;
 }
 .footer3 img{
-    size: 10px;
     margin: 12px;
-
     padding-left: 20px;
     text-align: center;
 }
@@ -403,6 +397,9 @@ input[type=submit] {
         width: 200px;
         margin: auto;
         padding: 0px 20px;
+    }
+    .footer4  a{
+       color: red;
     }
     a{
         text-align: center;
