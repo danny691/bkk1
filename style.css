@@ -414,7 +414,7 @@ input[type=submit] {
     }
     header {
 
-        width: 600px;
+        width: 900px;
         margin: 0;
         grid-area: header;
       
@@ -425,7 +425,7 @@ input[type=submit] {
     .navbar{
         grid-area: nav;
         background-color: #19d3da;
-        width: 600px;
+        width: 900px;
 
     }
     nav{
@@ -436,7 +436,7 @@ input[type=submit] {
         padding: 0px 20px;
     }
     .footer4  a{
-       color: red;
+       /* color: red; */
     }
     a{
         text-align: center;
