@@ -12,23 +12,17 @@ h4 {
 .grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 340px auto auto ;
     border-bottom: 50px;
     height: 85vh;
     grid-template-areas:
-
-        "mapbg mapbg map map map map map"
-
+        ". . tag tag tag . ."
+        ". fprod1 fprod1 fprod1 frprod1 . ."
         "news news news news news news news"
         "footer1 footer1 footer2 footer3 footer4 footer4 footer4"
 
 
     ;
-}
-
-.mapbg{
-    /* background-color: #1b262c; */
-    grid-area: mapbg;
 }
 
 
@@ -62,7 +56,6 @@ nav {
 
     background-color: #19d3da;
     padding-bottom: 20px;
-
 }
 
 
@@ -95,11 +88,9 @@ a {
     font-size: 30px;
 
 
-
 }
 
 a {
-    /* padding: 12px 34px 14px; */
 
     padding-bottom: 4px;
 }
@@ -107,7 +98,6 @@ a {
 ul {
     display: block;
     list-style-type: disc;
-
 
 }
 
@@ -134,9 +124,17 @@ a:hover {
 
 
 
-.map {
-    grid-area: map;
-    /* background-color: #1b262c; */
+.tagline {
+    margin-top: 65px;
+    text-align: center;
+    align-content: center;
+
+    grid-area: tag;
+}
+
+.tagline h1 {
+    font-size: 72px;
+    font-weight: bold;
 }
 
 .btntag {
@@ -168,9 +166,6 @@ a:hover {
 
 #ftprod1 {
     grid-area: fprod1;
-    width: 720px;
-    height: 480px;
-    margin-top: 48px;
 
 
 
@@ -178,8 +173,8 @@ a:hover {
 
 #ftprod2 {
     grid-area: fprod2;
-    width: 720px;
-    height: 480px;
+    width: 620px;
+    height: 380px;
     margin-top: 48px;
 
 
@@ -189,8 +184,8 @@ a:hover {
 #ftprod3 {
     grid-area: fprod3;
     margin-top: 48px;
-    width: 720px;
-    height: 480px;
+    width: 620px;
+    height: 380px;
 
 
 }
@@ -199,8 +194,8 @@ a:hover {
     grid-area: fprod4;
     margin-top: 48px;
     margin-bottom: 28px;
-    width: 720px;
-    height: 480px;
+    width: 620px;
+    height: 380px;
 
 }
 
@@ -208,7 +203,6 @@ a:hover {
     grid-area: news;
     background-color: #1b262c;
     border: cyan;
-    padding-top: 20px;
 
 }
 
@@ -311,6 +305,7 @@ input[type=submit] {
 
 .footer3 img {
     margin: 12px;
+
     padding-left: 20px;
     text-align: center;
 }
@@ -339,15 +334,22 @@ input[type=submit] {
     padding-bottom: 40px;
 }
 
-@media only screen and (max-width:600px) {
+
+
+
+
+
+/* mobile */
+
+@media only screen and (max-width:900px) {
     .grid {
         display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
         grid-template-areas:
-
-            "map"
+            "tag"
+            "ftprod1"
             "news"
             "footer2 "
             "footer3 "
@@ -404,16 +406,7 @@ input[type=submit] {
         text-align: left;
     }
 
-    header {
 
-        width: 600px;
-        margin: 0;
-        grid-area: header;
-
-
-
-
-    }
 
     header img a {
         border-style: none;
@@ -423,17 +416,26 @@ input[type=submit] {
 
     }
 
-    .navbar {
+    header {
+
+        width: 600px;
+        margin: 0;
+      
+      
+      
+   
+        
+    }
+    .navbar{
         grid-area: nav;
         background-color: #19d3da;
         width: 600px;
 
     }
-
-    nav {
-
+    nav{
+    
         background-color: #19d3da;
-        width: 600px;
+        width: 200px;
         margin: auto;
         padding: 0px 20px;
     }
@@ -443,3 +445,4 @@ input[type=submit] {
     }
 
 }
+
