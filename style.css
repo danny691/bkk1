@@ -375,6 +375,7 @@ input[type=submit] {
 
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        justify-content: center;
         grid-template-areas:
         "header"
         "nav" 
