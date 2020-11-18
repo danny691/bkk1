@@ -436,14 +436,14 @@ input[type=submit] {
     .navbar {
         grid-area: nav;
         background-color: #19d3da;
-        width: 100%;
+        width: 600px;
 
     }
 
     nav {
 
         background-color: #19d3da;
-        width: 200px;
+        width: 600px;
         margin: auto;
         padding: 0px 20px;
     }
