@@ -12,11 +12,11 @@ h4{
 .grid{
     display:grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 720px 340px 50px 400px 150px auto auto;
+    grid-template-rows: 800px 340px 50px 400px 150px auto auto;
     border-bottom: 50px;  
     height:85vh;
     grid-template-areas:
-    ".  video video video video video ."
+    ". video video video video . ."
     ". . tag tag tag . ."
     ".  features . . . viewall ."
     ". fprod1 fprod1 . fprod2 fprod2 ."
@@ -60,7 +60,9 @@ nav{
 }
 
 
-
+.footerp a{
+    color: #898E92;
+}
 
 .menu {
     display: flex;
@@ -116,8 +118,6 @@ nav{
 .maincontainer {
     padding-top: 20px;
     height: 100vh;
-   
-    
     margin: 10px auto 10px;
     border-bottom: 65px;
 
@@ -127,7 +127,8 @@ nav{
   
   
     grid-area:video;
-    align-content: center;
+    justify-items: center;
+
     
     
   }
@@ -175,11 +176,17 @@ nav{
 }
 #viewall{
     grid-area:viewall;
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
     text-decoration: underline;
 
     
+}
+#viewall a{
+    color: #000;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 
 #ftprod1{
@@ -363,6 +370,7 @@ input[type=submit] {
     .vid{
         height:280px;
         width: 360px;
+        justify-items: center;
         
     }
     #viewall{
