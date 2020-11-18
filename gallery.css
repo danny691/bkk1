@@ -416,7 +416,7 @@ input[type=submit] {
 
     header {
 
-        width: 600px;
+        width: 100%;
         margin: 0;
         grid-area: header;
 
@@ -436,7 +436,7 @@ input[type=submit] {
     .navbar {
         grid-area: nav;
         background-color: #19d3da;
-        width: 600px;
+        width: 100%;
 
     }
 
@@ -454,10 +454,3 @@ input[type=submit] {
 
 }
 
-/* ".  video video video video video ."
-    ". . tag tag tag . ."
-    ".  features . . . viewall ."
-    ". fprod1 fprod1 . fprod2 fprod2 ."
-    ". price . .  price2 . ."
-    "news news news news news news news"
-    "footer1 */

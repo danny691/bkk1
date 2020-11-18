@@ -376,32 +376,32 @@ input[type=submit] {
     #ftprod2 {
         grid-area: ftprod2;
         text-align: left;
-        width: 600px;
-        height: 480px;
+        width: 480px;
+        height: 320px;
 
     }
 
     #ftprod1 {
         grid-area: ftprod1;
         text-align: left;
-        width: 600px;
-        height: 480px;
+        width: 480px;
+        height: 320px;
 
     }
 
     #ftprod3 {
         grid-area: ftprod3;
         text-align: left;
-        width: 600px;
-        height: 480px;
+        width: 480px;
+        height: 320px;
 
     }
 
     #ftprod4 {
         grid-area: ftprod4;
         text-align: left;
-        width: 600px;
-        height: 480px;
+        width: 480px;
+        height: 320px;
 
     }
 
