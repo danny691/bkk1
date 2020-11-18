@@ -27,7 +27,9 @@ h4 {
     ;
 }
 
-
+.footerp a {
+    color: #898E92;
+}
 
 .logo {
     width: 126px;
@@ -77,8 +79,7 @@ nav {
 
 
 
-.navbar li,
-a {
+.navbar li, a {
     color: #000;
     text-decoration: none;
     display: inline;
@@ -439,6 +440,9 @@ input[type=submit] {
         background-color: #19d3da;
         width: 600px;
 
+    }
+    .footerp a{
+        color: #898E92;
     }
     nav{
     
