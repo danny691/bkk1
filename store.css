@@ -363,15 +363,9 @@ input[type=submit] {
     }
 
 
-    .vid {
-        height: 280px;
-        width: 360px;
+ 
 
-    }
 
-    #viewall {
-        text-align: left;
-    }
 
     #ftprod2 {
         grid-area: ftprod2;
@@ -413,23 +407,17 @@ input[type=submit] {
 
         width: 600px;
         margin: 0;
-        grid-area: header;
+
 
 
 
 
     }
-
-    header img a {
-        border-style: none;
-
-
 
 
     }
 
     .navbar {
-        grid-area: nav;
         background-color: #19d3da;
         width: 600px;
 
