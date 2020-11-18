@@ -16,7 +16,7 @@ h4{
     border-bottom: 50px;  
     height:85vh;
     grid-template-areas:
-    ". video video video video . ."
+    ". . video video video . ."
     ". . tag tag tag . ."
     ".  features . . . viewall ."
     ". fprod1 fprod1 . fprod2 fprod2 ."
