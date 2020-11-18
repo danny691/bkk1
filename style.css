@@ -272,8 +272,6 @@ input[type=submit] {
   border-style: none none solid none;
   margin-top: 20px;
 
-
- 
   
 }
 
@@ -345,7 +343,7 @@ input[type=submit] {
     .grid{
         display:grid;
 
-        grid-template-columns: 600px;
+        grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
         grid-template-areas:
         "header"
@@ -410,11 +408,3 @@ input[type=submit] {
     }
 
 }
-
-/* ".  video video video video video ."
-    ". . tag tag tag . ."
-    ".  features . . . viewall ."
-    ". fprod1 fprod1 . fprod2 fprod2 ."
-    ". price . .  price2 . ."
-    "news news news news news news news"
-    "footer1 */

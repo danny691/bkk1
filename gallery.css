@@ -26,6 +26,7 @@ h4{
 
     ;
   }
+  
       
 
 .logo {
@@ -40,6 +41,8 @@ h4{
 
 
 
+
+
 header {
     background-color: #1b262c;
     height: 250px;
@@ -47,8 +50,6 @@ header {
     margin:0 auto;
     text-align:left;
     position:relative;
-
-
 
 
 }
@@ -73,6 +74,7 @@ nav{
     margin: auto;
     
 }
+
 
 
 li, a {
@@ -396,6 +398,13 @@ input[type=submit] {
         width: 600px;
         margin: 0;
         grid-area: header;
+     
+      
+   
+        
+    }
+    header img a{
+    border-style: none;
      
       
    
