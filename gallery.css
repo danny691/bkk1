@@ -426,7 +426,7 @@ input[type=submit] {
 
     header {
 
-        width: 900px;
+        width: 600px;
         margin: 0;
       
       
@@ -437,7 +437,7 @@ input[type=submit] {
     .navbar{
         grid-area: nav;
         background-color: #19d3da;
-        width: 900px;
+        width: 600px;
 
     }
     nav{
