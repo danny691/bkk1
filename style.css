@@ -349,9 +349,9 @@ input[type=submit] {
         grid-template-areas:
     
         ". video video video video . ."
-        ". tag tag tag tag . ."
-        ".  features . . . viewall ."
-        ". fprod1 fprod1 . fprod2 fprod2 ."
+        ". tag tag . . . ."
+        ".  features . viewall . . ."
+        ". fprod1 fprod2 . . ."
         ". price . .  price2 . ."
         "news news news news news news news"
         "footer1 footer1 footer2 footer3 footer4 footer4 footer4"

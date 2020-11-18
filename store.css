@@ -170,8 +170,8 @@ a:hover {
 
 #ftprod1 {
     grid-area: fprod1;
-    width: 720px;
-    height: 480px;
+    width: 480px;
+    height: 360px;
     margin-top: 48px;
 
 
@@ -180,8 +180,8 @@ a:hover {
 
 #ftprod2 {
     grid-area: fprod2;
-    width: 720px;
-    height: 480px;
+    width: 480px;
+    height: 360px;
     margin-top: 48px;
 
 
@@ -191,8 +191,8 @@ a:hover {
 #ftprod3 {
     grid-area: fprod3;
     margin-top: 48px;
-    width: 720px;
-    height: 480px;
+    width: 480px;
+    height: 360px;
 
 
 }
@@ -201,8 +201,8 @@ a:hover {
     grid-area: fprod4;
     margin-top: 48px;
     margin-bottom: 28px;
-    width: 720px;
-    height: 480px;
+    width: 480px;
+    height: 360px;
 
 }
 
