@@ -404,8 +404,13 @@ input[type=submit] {
     #viewall{
         text-align: left;
     }
+    #ftprod1{
+        width: 600;
+        height: 480px;
+    }
     #ftprod2{
-        text-align: left;
+        width: 600;
+        height: 480px;
     }
     #ftprice2{
         text-align: left;
