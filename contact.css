@@ -5,29 +5,26 @@
 
 }
 
-h4{
+h4 {
     color: #898E92;
 }
 
-.grid{
-    display:grid;
+.grid {
+    display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 720px 340px 50px 400px 150px auto auto;
-    border-bottom: 50px;  
-    height:85vh;
+    grid-template-rows: auto auto;
+    border-bottom: 50px;
+    height: 85vh;
     grid-template-areas:
-    ".  video video video video video ."
-    ". . tag tag tag . ."
-    ".  features . . . viewall ."
-    ". fprod1 fprod1 . fprod2 fprod2 ."
-    ". price . .  price2 . ."
-    "news news news news news news news"
-    "footer1 footer1 footer2 footer3 footer4 footer4 footer4"
-    
+
+        "news news news news news news news"
+        "footer1 footer1 footer2 footer3 footer4 footer4 footer4"
+
 
     ;
-  }
-      
+}
+
+
 
 .logo {
     width: 126px;
@@ -41,21 +38,21 @@ h4{
 
 
 
+
+
 header {
     background-color: #1b262c;
     height: 250px;
     width: 100%;
-    margin:0 auto;
-    text-align:left;
-    position:relative;
-
-
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
 
 
 }
 
-nav{
-    
+nav {
+
     background-color: #19d3da;
     padding-bottom: 20px;
 }
@@ -72,11 +69,13 @@ nav{
     max-width: 1200px;
     text-align: center;
     margin: auto;
-    
+
 }
 
 
-.navbar li, a {
+
+.navbar li,
+a {
     color: #000;
     text-decoration: none;
     display: inline;
@@ -86,18 +85,17 @@ nav{
     font-family: 'Goldman', cursive;
     font-weight: 700;
     font-size: 30px;
- 
+
 
 }
 
-.navbar a {
-    
-
+a {
+    /* padding: 12px 34px 14px; */
 
     padding-bottom: 4px;
 }
 
- ul {
+ul {
     display: block;
     list-style-type: disc;
     margin-block-start: em;
@@ -108,50 +106,44 @@ nav{
 
 }
 
-.navbar a:hover {
+a:hover {
 
 
 
     border-style: none none solid none;
-    
-    
+
+
 }
 
 
 .maincontainer {
     padding-top: 20px;
     height: 100vh;
-   
-    
+
+
     margin: 10px auto 10px;
     border-bottom: 65px;
 
 
 }
-.vid {
-  
-  
-    grid-area:video;
+
+
+
+.tagline {
+    margin-top: 65px;
+    text-align: center;
     align-content: center;
-    
-    
-  }
 
+    grid-area: tag;
+}
 
-  .tagline {
-      margin-top: 65px;
-      text-align: center;
-      align-content: center;
+.tagline h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
 
-      grid-area: tag;
-  }
-  .tagline h1{
-      font-size: 72px;
-      font-weight: bold;
-  }
-
-  .btntag{
-    background-color: #000; 
+.btntag {
+    background-color: #000;
     border-radius: 20px;
     border-style: none;
     color: white;
@@ -161,71 +153,77 @@ nav{
     display: inline-block;
     font-size: 16px;
     margin: 56px 2px;
-  }
-  .btntag a{
-    
- 
+}
+
+.btntag a {
+
+
     border-style: none;
     color: cyan;
 
-  }
-
-
-
-
-
-#feat{
-    grid-area:features;
-    font-size: 24px;
-}
-#viewall{
-    grid-area:viewall;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: underline;
-
-    
 }
 
-#ftprod1{
-    grid-area:fprod1;
-    width: 450px;
-    height: 375px;
-    
+
+
+
+
+
+
+#ftprod1 {
+    grid-area: fprod1;
+    width: 720px;
+    height: 480px;
+    margin-top: 48px;
+
+
 
 }
-#ftprod2{
-    grid-area:fprod2;
-    width: 450px;
-    height: 375px;
+
+#ftprod2 {
+    grid-area: fprod2;
+    width: 720px;
+    height: 480px;
+    margin-top: 48px;
+
+
 
 }
-#ftprice1{
-    grid-area:price;
-    width: 300px;
+
+#ftprod3 {
+    grid-area: fprod3;
+    margin-top: 48px;
+    width: 720px;
+    height: 480px;
+
 
 }
-#ftprice2{
-    grid-area:price2;
-    width: 300px;
-    text-align: right;
-    padding-left: 100px;
+
+#ftprod4 {
+    grid-area: fprod4;
+    margin-top: 48px;
+    margin-bottom: 28px;
+    width: 720px;
+    height: 480px;
+
 }
-.news{
+
+.news {
     grid-area: news;
     background-color: #1b262c;
     border: cyan;
+    padding-top: 20px;
 
 }
 
-.news h1{
+.news h1 {
     color: cyan;
     margin-top: 32px;
     text-align: center;
     font-size: 72px;
     font-weight: bold;
 }
-.news p{
+
+.news p {
     color: #F8F6F8;
     font-size: 45px;
     text-align: center;
@@ -233,80 +231,88 @@ nav{
     margin-top: 64px;
     margin-left: 25%;
     margin-right: 25%;
-   
+
 }
 
-input[type=text], select {
-  width: 50%;
-  padding: 12px 20px;
-  margin: 64px 25% 40px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+input[type=text],
+select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 64px 25% 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 input[type=submit] {
-  width: 50%;
-  background-color: #1b262c;
-  color: cyan;
-  font-size: 32px;
+    width: 50%;
+    background-color: #1b262c;
+    color: cyan;
+    font-size: 32px;
 
-  padding: 12px 20px;
-  margin: 0px 25%;
-  border-style: solid;
-  border-radius: 4px;
-  cursor: pointer;
+    padding: 12px 20px;
+    margin: 0px 25%;
+    border-style: solid;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.news #hr1{
-  border: 3px solid cyan;
-  border-style: none none solid none;
-  margin-top: 64px;
-  margin-left: 25%;
-  margin-right: 25%;
- 
-  
-}
-.news #dhr{
-  border: 4px solid gray;
-  border-style: none none solid none;
-  margin-top: 20px;
+.news #hr1 {
+    border: 3px solid cyan;
+    border-style: none none solid none;
+    margin-top: 64px;
+    margin-left: 25%;
+    margin-right: 25%;
 
-  
+
 }
 
-.footer{
+.news #dhr {
+    border: 4px solid gray;
+    border-style: none none solid none;
+    margin-top: 20px;
+
+
+
+
+}
+
+.footer {
     grid-area: footer1;
 
     background-color: #1b262c;
     height: 400px;
     margin: 0;
 }
-.footer2{
+
+.footer2 {
     grid-area: footer2;
     background-color: #1b262c;
 
 }
-.footer2 .footerp{
-    
+
+.footer2 .footerp {
+
     margin-top: 85px;
     text-align: left;
     color: #898E92;
     font-size: 20px;
     width: 300px;
     float: left;
-    
+
 }
-.btmmar{
+
+.btmmar {
     margin-bottom: 25px;
 }
 
-.footer3{
+.footer3 {
     grid-area: footer3;
     background-color: #1b262c;
 }
-.footer3 img{
+
+.footer3 img {
     size: 10px;
     margin: 12px;
 
@@ -314,19 +320,21 @@ input[type=submit] {
     text-align: center;
 }
 
-.socials img{
+.socials img {
     width: 60px;
     height: 60px;
     float: left;
-    
+
 
 }
-.footer4{
+
+.footer4 {
     grid-area: footer4;
     background-color: #1b262c;
 }
-.footer4 .footerp{
-    
+
+.footer4 .footerp {
+
     margin-top: 85px;
     text-align: left;
     color: #898E92;
@@ -336,75 +344,105 @@ input[type=submit] {
     padding-bottom: 40px;
 }
 
-@media only screen and (max-width:600px)
-{
-    body{
-        width: 600px;
-    }
-    .grid{
-        display:grid;
+@media only screen and (max-width:600px) {
+    .grid {
+        display: grid;
 
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
         grid-template-areas:
-        "header"
-        "nav" 
-        "video"
-        "tag"
-        "features "
-        "viewall "
-        "fprod1"
-        "price "
-        "fprod2 "
-        "price2 "
-        "news "
-        "footer2 "
-        "footer3 "
-        "footer4 "
+
+            "news"
+            "footer2 "
+            "footer3 "
+            "footer4 "
         ;
 
- 
+
     }
 
 
-    .vid{
-        height:280px;
+    .vid {
+        height: 280px;
         width: 360px;
-        
+
     }
-    #viewall{
+
+    #viewall {
         text-align: left;
     }
-    #ftprod2{
+
+    #ftprod2 {
+        grid-area: ftprod2;
+        text-align: left;
+        width: 600px;
+        height: 480px;
+
+    }
+
+    #ftprod1 {
+        grid-area: ftprod1;
+        text-align: left;
+        width: 600px;
+        height: 480px;
+
+    }
+
+    #ftprod3 {
+        grid-area: ftprod3;
+        text-align: left;
+        width: 600px;
+        height: 480px;
+
+    }
+
+    #ftprod4 {
+        grid-area: ftprod4;
+        text-align: left;
+        width: 600px;
+        height: 480px;
+
+    }
+
+    #ftprice2 {
         text-align: left;
     }
-    #ftprice2{
-        text-align: left;
-    }
+
     header {
 
         width: 600px;
         margin: 0;
         grid-area: header;
-      
-      
-   
-        
+
+
+
+
     }
-    .navbar{
+
+    header img a {
+        border-style: none;
+
+
+
+
+    }
+
+    .navbar {
         grid-area: nav;
         background-color: #19d3da;
         width: 600px;
 
     }
-    nav{
-    
+
+    nav {
+
         background-color: #19d3da;
         width: 200px;
         margin: auto;
         padding: 0px 20px;
     }
-    a{
+
+    a {
         text-align: center;
     }
 
