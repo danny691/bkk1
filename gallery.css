@@ -416,9 +416,9 @@ input[type=submit] {
 
     header {
 
-        width: 100%;
+        width: 900px;
         margin: 0;
-        grid-area: header;
+
 
 
 
@@ -443,7 +443,7 @@ input[type=submit] {
     nav {
 
         background-color: #19d3da;
-        width: 600px;
+        width: 900px;
         margin: auto;
         padding: 0px 20px;
     }
