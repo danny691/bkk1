@@ -117,8 +117,6 @@ a:hover {
 .maincontainer {
     padding-top: 20px;
     height: 100vh;
-
-
     margin: 10px auto 10px;
     border-bottom: 65px;
 
@@ -131,7 +129,6 @@ a:hover {
     margin-top: 65px;
     text-align: center;
     align-content: center;
-
     grid-area: tag;
 }
 

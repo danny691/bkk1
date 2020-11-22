@@ -12,12 +12,12 @@ h4 {
 .grid {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 340px auto auto ;
+    grid-template-rows: 200px auto auto ;
     border-bottom: 50px;
     height: 85vh;
     grid-template-areas:
         ". . tag tag tag . ."
-        ". fprod1 fprod1 fprod1 frprod1 . ."
+        ". fprod1 fprod1 fprod1 . . ."
         "news news news news news news news"
         "footer1 footer1 footer2 footer3 footer4 footer4 footer4"
 
@@ -169,8 +169,6 @@ a:hover {
 
 #ftprod1 {
     grid-area: fprod1;
-
-
 
 }
 
